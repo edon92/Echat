@@ -66,7 +66,8 @@ var server = ws.createServer(function(conn){
         uid: obj.uid,
         users: users,
         nickname: obj.nickname,
-        bridge: obj.bridge
+        bridge: obj.bridge,
+        status: 1,
       });
     }
   })
